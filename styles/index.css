@@ -1,3 +1,16 @@
+.body{
+   
+
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+
+    background-color: rgba(17, 17, 17, 1);
+   
+}
 /* shared style */
 .display-flex{
     display: flex;
@@ -5,33 +18,168 @@
 /* nav style */
 .nav{
     justify-content: space-between;
+
+  
+    
+}
+.fitness{
+    font: Inter;
+    font-weight: 800;
+    font-style: italic;
+    font-size: 36px;
+    color: rgba(230, 83, 60, 1);
+    margin-left: 200px;
+}
+.home{
+    font: inter;
+    font-weight: 600;
+    font-size: 18px;
+    
+    border-radius: 40px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(230, 83, 60, 1);
 }
 .links{
     list-style: none;
+    
 }
 .link{
     text-decoration: none;
+    font: inter;
+    font-weight: 400;
+    font-size: 18px;
+    color: rgba(255, 255, 255, 1);
+}
+.navbar{
+    height: 50px;
+   width: 380px;
+    border-radius: 39px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    margin-right: 150px;
+    margin-top: 55px;
+   
+}
+#get{
+    font-weight: 900;
+     font-size: 40px;
+ color: rgba(255, 255, 255, 1);
+}
+#shape{
+    font-family: Miama;
+    font-weight: 400;
+    font-style: italic;
+    font-size:30px;
+}
+#huge{
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.5);
+}
+.btn-1{
+    border: none;
+    border-radius: 42px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgba(230, 83, 60, 1);
+    font-size: 18px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 1);
+}
+.btn-2{
+    border: 1px solid rgba(255, 255, 255, 1);
+    border-radius: 42px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgba(17, 17, 17, 1);
+    font-size: 18px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 1); 
 }
 .nav-ul{
     gap: 20px;
 }
 /* banner style */
 .div1{
-    width: 70px;
-    height: 70px;
-    border: 2px solid darkcyan;
+    gap: 10px;
+    position: absolute;
+    bottom: 180px;
+    right: 220px;
+    width: 150px;
+    height: 50px;
+    padding-left: 10px;
+    padding-top: 10px;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    background-color: rgba(48, 48, 48, 0.54);
+    color: rgba(239, 237, 232, 0.65);
+    
+}
+.circle{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: rgba(230, 83, 60, 1);
+}
+.video{
+    width: 108px;
+    height: 56px;
+   
+}
+#fifty{
+    font-weight: 900;
+    font-size: 15px;
+    color: rgba(250, 250, 249, 1);
+}
+.tutorial{
+    font-weight: 400;
+    font-size: 16px;
+  
 }
 .div2{
   
-    width: 70px;
-    height: 70px;
-    border: 2px solid darkcyan;
-
- 
+    width: 140px;
+    height: 40px;
+    position: absolute;
+    bottom: 350px;
+   left: 250px;
+    width: 150px;
+    height: 50px;
+    padding-left: 10px;
+    padding-top: 10px;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    background-color: rgba(48, 48, 48, 0.54);
+    color: rgba(239, 237, 232, 0.65);
+}
+#fiveh{
+    font-weight: 900;
+    font-size: 15px;
+    color: rgba(250, 250, 249, 1);   
+}
+#workout{
+    font-weight: 400;
+    font-size: 10px;  
+}
+.banner{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.banner-1{
+    width: 80%;
+   margin-left: 200px;
 }
 .banner-2{
-    border: 2px solid seagreen;
     position: relative;
+   width: 55%;
+  margin-left: 70px;
 }
 .image-4{
     display: flex;
@@ -79,6 +227,15 @@ hr{
 .lastf{
     width: 100%;
     text-align: center;
+}
+
+@media screen and (min-width: 576px) {
+    .navbar{
+        
+    }
+    .banner{
+        flex-direction: column;
+    }
 }
 
 
