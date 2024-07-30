@@ -181,6 +181,7 @@
    width: 55%;
   margin-left: 70px;
 }
+/* change */
 .image-4{
     display: flex;
   
@@ -190,7 +191,28 @@
 }
 .change{
     width: 100%;
+    margin-top: 50PX;
     text-align: center;
+    color: rgba(255,  255, 255, 0.5);
+}
+#habit{
+    font-weight: 900;
+    font-size: 48px;
+    color: rgba(255, 255, 255, 1);
+}
+#belive{
+    font-weight: 400;
+    font-size: 10PX;
+}
+#move{
+    font-weight: 600;
+    font-size: 18px;
+    color: rgba(255, 255, 255, 1);
+}
+#shou{
+    font-weight: 400;
+    font-size: 10px;
+    color: rgba(255, 255, 255, 0.5);
 }
 .section-2{
     display: flex;
