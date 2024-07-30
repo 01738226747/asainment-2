@@ -214,15 +214,58 @@
     font-size: 10px;
     color: rgba(255, 255, 255, 0.5);
 }
+/* section-2 */
 .section-2{
+    width: 65%;
+    position: relative;
     display: flex;
     gap: 220px;
+    padding-left: 20px;
+    padding-bottom: 20px;
     margin-left: 200px;
     margin-top: 50px;
+    background-color: rgba(34, 34, 34, 1);
+    border: 1px solid rgba(34, 34, 34, 1);
+    border-radius: 18px;
+   
 }
+.image-man{
+  position: absolute;
+  left: 75%;
+  top: 15%;
+  bottom: 50%;
+  border-radius: 18px;
+
+}
+#run{
+   font-weight: 900;
+   font-size: 20px;
+   color: rgba(255, 255, 255, 1); 
+}
+#we{
+ font-weight: 400;
+ font-size: 10px;
+ color: rgba(255, 255, 255, 0.5);   
+}
+#btn-3{
+    border: none;
+    border-radius: 42px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgba(230, 83, 60, 1);
+    font-size: 14px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 1);
+}
+
 .bmi{
     width: 100%;
     text-align: center;
+    font-size: 48px;
+    font-weight: 900;
+    color: rgba(255, 255, 255, 1);
 }
 .meet{
     width: 100%;
