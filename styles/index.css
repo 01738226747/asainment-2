@@ -1,14 +1,11 @@
 .body{
-   
-
+   margin: 0;
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   font-weight: weight;
   font-style: normal;
-  font-variation-settings:
-    "slnt" 0;
-
-    background-color: rgba(17, 17, 17, 1);
+  font-variation-settings:  "slnt" 0;
+ background-color: rgba(17, 17, 17, 1);
    
 }
 /* shared style */
@@ -65,14 +62,14 @@
 }
 #get{
     font-weight: 900;
-     font-size: 40px;
+     font-size: 50px;
  color: rgba(255, 255, 255, 1);
 }
 #shape{
     font-family: Miama;
     font-weight: 400;
     font-style: italic;
-    font-size:30px;
+    font-size:40px;
 }
 #huge{
     font-weight: 400;
@@ -110,8 +107,8 @@
 .div1{
     gap: 10px;
     position: absolute;
-    bottom: 180px;
-    right: 220px;
+    bottom: 60px;
+    right: 395px;
     width: 150px;
     height: 50px;
     padding-left: 10px;
@@ -182,10 +179,13 @@
   margin-left: 70px;
 }
 /* change */
+
 .image-4{
     display: flex;
+   margin-left: 27%;
+   
   
-   margin-left: 200px;
+  
     text-align: center;
     gap: 30px;
 }
@@ -216,13 +216,13 @@
 }
 /* section-2 */
 .section-2{
-    width: 65%;
+    width: 45%;
     position: relative;
     display: flex;
     gap: 220px;
     padding-left: 20px;
     padding-bottom: 20px;
-    margin-left: 200px;
+    margin-left: 460px;
     margin-top: 50px;
     background-color: rgba(34, 34, 34, 1);
     border: 1px solid rgba(34, 34, 34, 1);
@@ -231,15 +231,15 @@
 }
 .image-man{
   position: absolute;
-  left: 75%;
-  top: 15%;
+  left: 77%;
+  top: 14%;
   bottom: 50%;
   border-radius: 18px;
 
 }
 #run{
    font-weight: 900;
-   font-size: 20px;
+   font-size: 30px;
    color: rgba(255, 255, 255, 1); 
 }
 #we{
@@ -303,7 +303,7 @@ td,th{
     font-weight: 500;
     color: rgba(255, 255, 255, 1);
 }
-
+/* meet our team */
 .meet{
     width: 100%;
     text-align: center;
@@ -321,28 +321,83 @@ td,th{
 .image-6{
     width: 48%;
     display: grid;
-    grid-template-columns: repeat(3, 180px);
-grid-gap: 20px;
-margin-left: 300px;
-background-color: rgba(255, 255, 255, 0.1);
+    grid-template-columns: repeat(3, 270px);
+grid-gap: 40px;
+box-sizing: border-box;
+margin-left: 500px;
+background-color: rgba(34, 34, 34, 1);
 padding: 20px;
+padding-left: 20px;
 border-radius: 18px;
 }
+/* footer */
 .footer{
-    display: flex;
-    gap: 30px;
-    margin-left: 270px;
+    display: flex;   
+    justify-content: center;  
+    margin-top: 50px;
+    background-color: rgba(34, 34, 34, 1);
 }
+
+#fg{
+    padding-left: 50px;
+}
+.clm3{
+    padding-left: 50px;
+}
+.clm1{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.clm2{
+}
+.fit{
+    font-weight: 800;
+    font-style: italic;
+    font-size: 36px;
+    color: rgba(230, 83, 60, 1); 
+}
+
+#gst{
+    font-size: 25px;
+    font-weight: 900;
+    color: rgba(255, 255, 255, 1);
+}
+
 li{
     list-style: none;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+    padding: 5px;
+   
+  
 }
+
 hr{
     width: 80%;
+    
+   border: 1px solid rgba(255, 255, 255, 0.1);
 }
 .lastf{
     width: 100%;
+    height: 50px;
+  padding-top: 10px;
     text-align: center;
+    background-color: rgba(34, 34, 34, 1);
+    
 }
+.j{
+    width: 100%;
+    background-color: rgba(34, 34, 34, 1);
+    padding: 10px;
+
+}
+#ltp{
+    font-weight: 400px;
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
 
 @media screen and (min-width: 576px) {
     .navbar{
