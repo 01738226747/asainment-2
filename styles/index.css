@@ -183,11 +183,9 @@
 .image-4{
     display: flex;
    margin-left: 27%;
-   
-  
-  
     text-align: center;
     gap: 30px;
+    
 }
 .change{
     width: 100%;
@@ -216,26 +214,33 @@
 }
 /* section-2 */
 .section-2{
-    width: 45%;
-    position: relative;
+    width: 100%;
+    height: 400px;
+    position: relative;    
+    padding: 30px;
+   box-sizing: border-box;
+   margin-top: 80px;
+}
+.evry{
+    width: 50%;
     display: flex;
-    gap: 220px;
-    padding-left: 20px;
-    padding-bottom: 20px;
-    margin-left: 460px;
-    margin-top: 50px;
-    background-color: rgba(34, 34, 34, 1);
-    border: 1px solid rgba(34, 34, 34, 1);
-    border-radius: 18px;
-   
+    justify-content: space-between;
+   position: absolute;
+   left: 50%;
+   top: 50%;
+   transform: translate(-50%,-50%);
+   background-color: rgba(34, 34, 34, 1);
+   padding: 20px;
+   border-radius: 18px;
 }
 .image-man{
-  position: absolute;
-  left: 77%;
-  top: 14%;
-  bottom: 50%;
-  border-radius: 18px;
-
+    width: 200px;
+    
+}
+.image-man > img{
+    width: 100%;
+    height: 100%;
+    border-radius: 18px;
 }
 #run{
    font-weight: 900;
@@ -260,26 +265,37 @@
     color: rgba(255, 255, 255, 1);
 }
 /* bmi calculator */
-.bmi{
+.main-bmi{
     width: 100%;
-    text-align: center;
-    margin-top: 40px;
+    height: 200px;
+    margin-bottom: 60px;
+    position: relative; 
+}
+.bmi{
+    width: 25%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+     
 }
 #calculator{
-    font-size: 25px;
+    font-size: 48px;
     font-weight: 900;
     color: rgba(255, 255, 255, 1);
 }
 #bmip{
+    margin-left: 10px;
     font-size: 10px;
     font-weight: 400;
     color: rgba(255, 255, 255, 0.5);
 }
-/* section-3 */
+/* section-3*/ 
 .section-3{
     background-color: rgba(34, 34, 34, 1);
 }
 #chart{
+    margin: 10px;
     font-weight: 900;
     font-size: 28px;
     color: rgba(255, 255, 255, 1);
@@ -303,6 +319,86 @@ td,th{
     font-weight: 500;
     color: rgba(255, 255, 255, 1);
 }
+.section-3{
+    height: 400px;
+    margin-bottom: 50px;
+  position: relative;
+}
+.main-chart{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+.bmi-chart{
+
+margin-left: 17%;
+padding-left: 5px;
+
+}
+.bmi-chart > table{
+    margin-left: 7px;
+    margin-top: 40px;
+}
+.calculate{
+    width: 35%;
+    margin-right: 5%;
+}
+.form{
+    margin-top: 20px;
+}
+.form > input{
+    width: 250px;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    margin: 10px;
+    background-color: rgba(255, 255, 255, 0.1);
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.6);
+    
+}
+#sec1{
+    padding: 10px;
+    width: 278px;
+    border-radius: 8px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.1);
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.6);
+    
+}
+#sec2{
+    width: 556px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 8px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.1);
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.6);
+    
+}
+#btn-9{
+    border: none;
+    border-radius: 42px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  margin: 10px;
+    background-color: rgba(230, 83, 60, 1);
+    font-size: 14px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 1);  
+}
 /* meet our team */
 .meet{
     width: 100%;
@@ -319,17 +415,34 @@ td,th{
     color: rgba(255, 255, 255, 0.5);
 }
 .image-6{
-    width: 48%;
-    display: grid;
-    grid-template-columns: repeat(3, 270px);
-grid-gap: 40px;
-box-sizing: border-box;
-margin-left: 500px;
+display: grid;
+grid-template-columns: repeat(3, 200px);
+gap: 20px;
+position: absolute;
+left: 50%;
+top: 50%;
+transform: translate(-50%, -50%);
+padding: 12px;
 background-color: rgba(34, 34, 34, 1);
-padding: 20px;
-padding-left: 20px;
+box-sizing: border-box;
 border-radius: 18px;
 }
+.image6{
+    position: relative;
+    width: 100%;
+    height: 500px;
+}
+.image{
+    width: 200px;
+    height: 200px;
+}
+.image > img{
+    width: 100%;
+    height: 100%;
+    border-radius: 18px;
+}
+
+
 /* footer */
 .footer{
     display: flex;   
@@ -398,6 +511,9 @@ hr{
     color: rgba(255, 255, 255, 0.5);
 }
 
+  
+
+
 
 @media screen and (min-width: 576px) {
     .navbar{
@@ -407,5 +523,6 @@ hr{
         flex-direction: column;
     }
 }
+
 
 
