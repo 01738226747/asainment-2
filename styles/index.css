@@ -476,6 +476,21 @@ border-radius: 18px;
     background-image: url(../images/trainer6.png);
     background-repeat: no-repeat;
     background-size: cover;
+    
+}
+#bell{
+    font-size: 15px;
+    font-weight: 900;
+    color: rgba(255, 255, 255, 1);
+    margin-top: 110px;
+    margin-left: 20px;
+    
+}
+#Trainer{
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+    margin-left: 20px;
 }
 /* footer */
 .footer{
@@ -545,11 +560,14 @@ hr{
     color: rgba(255, 255, 255, 0.5);
 }
 .main{
-    width: 400px;
-    height: 400px;
-   
+    width: 300px;
+    height: 200px;
+   color: white;
     border: 2px solid mediumaquamarine;
-   background-image: url(../images/trainer2.png);
+  
+}
+.g{
+    line-height: 50px;
 }
 @media screen and (max-width: 576px) {
     .fitness{
@@ -570,7 +588,74 @@ hr{
         right: 200px;
       
     }
-    
+    .image-4{
+        display: flex;
+        flex-direction: column;
+        margin-right: 150px;      
+    }
+    .evry{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+    }
+    .image-man{
+        width: 100%;
+        margin-top: 20px;
+        
+    }
+    #btn-3{
+        margin-left: 90px;
+    }
+    .bmi{
+        width: 80%;
+        margin-top: 50px; 
+    }
+    .main-chart{
+        width: 100%;
+        height: 800px;
+        display: flex;
+        flex-direction: column; 
+    }
+    .bmi-chart > table{
+        margin-left: 7px;
+        margin-top: 40px;
+    }
+     .section-3{
+        height: 800px;
+        margin-bottom: 50px;
+        position: relative;
+     }
+     .calculate{
+        width: 60%;
+        margin-left: 80px;
+    }
+    .form{
+        width: 200px;
+        margin-top: 20px;
+    }
+    #sec2{
+        width: 80%;   
+    }
+    #sec1{
+        padding: 10px;
+        width: 274px;
+        margin-left: 10px; 
+    }
+    .image-6{
+        display: grid;
+        grid-template-columns: repeat(1, 200px);
+        
+        }
+    .image6{
+            position: relative;
+            width: 100%;
+            height: 1400px;
+        }
+    .footer{
+            display: flex;
+            flex-direction: column;   
+        }
+         
 }
 
 
