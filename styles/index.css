@@ -1,6 +1,10 @@
+*{
+    border: 2px solid red;
+}
 .body{
     width: 100%;
    margin: 0;
+   border: 2px solid green;
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   font-weight: weight;
@@ -185,7 +189,7 @@
     
 }
 .change{
-    width: 100%;
+    width: 99.5%;
     margin-top: 50PX;
     text-align: center;
     color: rgba(255,  255, 255, 0.5);
@@ -542,7 +546,7 @@ hr{
    border: 1px solid rgba(255, 255, 255, 0.1);
 }
 .lastf{
-    width: 100%;
+    width: 99.5%;
     height: 50px;
   padding-top: 10px;
     text-align: center;
@@ -550,7 +554,7 @@ hr{
     
 }
 .j{
-    width: 100%;
+    width: 98.5%;
     background-color: rgba(34, 34, 34, 1);
     padding: 10px;
 
