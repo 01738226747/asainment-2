@@ -54,10 +54,11 @@
    width: 380px;
     border-radius: 39px;
     border: 1px solid rgba(255, 255, 255, 0.1);
-    margin-right: 150px;
+   margin-left: 500px;
     margin-top: 55px;
    
 }
+
 #get{
   font-size: 3.1rem;
   font-weight: 900;
